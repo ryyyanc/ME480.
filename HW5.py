@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[18]:
-
-
 r = viewscad.Renderer(openscad_exec='C:\Program Files\OpenSCAD\openscad.exe')
 from solid import *
 from solid.utils import *
@@ -39,7 +33,7 @@ t = b + cm
 r.render(t)
 
 
-# In[16]:
+
 
 
 r = viewscad.Renderer(openscad_exec='C:\Program Files\OpenSCAD\openscad.exe')
